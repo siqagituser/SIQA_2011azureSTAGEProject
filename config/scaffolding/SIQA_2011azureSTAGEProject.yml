@@ -11,15 +11,11 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: softwareag
 services:
-- serviceName: project.siqa_2011azurestage.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1
-  packages:
-  - name: SIQA_2011azureSTAGEProject
-    version: "1.0"
-- serviceName: project.siqa_2011azurestage.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
-  packages:
-  - name: SIQA_2011azureSTAGEProject
-    version: "1.0"
 - serviceName: project.siqa_2011azurestage.integrations:SIQAAdapterFlow
+  packages:
+  - name: SIQA_2011azureSTAGEProject
+    version: "1.0"
+- serviceName: project.siqa_2011azurestage.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:testJDBC
   packages:
   - name: SIQA_2011azureSTAGEProject
     version: "1.0"
